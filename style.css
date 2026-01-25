@@ -49,6 +49,7 @@ Header
     margin: .5rem;
     border-radius: 8px;
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 .list-background-get-started {
@@ -154,5 +155,26 @@ showcase
 .image-itself {
     width: 600px;
     
+    
+}
+
+/* 
+
+Media Queries Showcase
+
+
+*/
+
+@media screen and (max-width:1047px){
+
+    .showcase-container {
+    height: 650px;
+
+}
+.image-itself {
+    display: none;
+}
+
+
     
 }
