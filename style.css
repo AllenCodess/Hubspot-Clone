@@ -172,9 +172,37 @@ Media Queries Showcase
 
 }
 .image-itself {
-    display: none;
+    width: 400px;
 }
 
 
+    
+}
+
+
+@media screen and (max-width:883px){
+
+
+.image-itself {
+   display: none;
+}
+
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .showcase-header-list {
+   flex-direction: column;
+   text-align: center;
+   
+   
+}
+
+.showcase-container {
+    background-color: #ffe4d4;
+    width: 100%;
+    height: 700px;
+}
     
 }
