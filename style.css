@@ -21,7 +21,12 @@ Header
 */
 
 .img-itself {
-    cursor: default;
+    width: 114px;
+    cursor: pointer;
+}
+
+.img-container {
+    padding-top: .7rem ;
 }
 
 .hubspot-header {
@@ -39,15 +44,30 @@ Header
 }
 
 .list-items {
-    border: solid #ff7b00 2px;
+    border: solid #ff5100 2px;
     padding: .7rem .7rem;
-    margin: 1rem;
+    margin: .5rem;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-.list-background {
-    background-color: #ff7b00;
+.list-background-get-started {
+    background-color: #ff5100;
+    border: none;
     
+}
+
+.list-background-get-started:hover {
+    background-color: #a73500;
+    
+}
+
+.list-background:hover {
+    background-color: #ffb18d;
+}
+
+.list-background-demo:hover {   
+    background-color: #ffcab2;
 }
 
 .list-items-link {
@@ -60,7 +80,7 @@ Header
 }
 
 .get-demo-header {
-    color: #ff7b00;
-    font-size: 19px;
-    font-weight: 600;
+    color: #ff5100;
+    font-size: 17px;
+    font-weight: 500;
 }
