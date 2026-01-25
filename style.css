@@ -13,3 +13,54 @@ body {
     margin: auto;
     width: 90%;
 }
+
+/* 
+
+Header
+
+*/
+
+.img-itself {
+    cursor: default;
+}
+
+.hubspot-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 75%;
+
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    
+}
+
+.list-items {
+    border: solid #ff7b00 2px;
+    padding: .7rem .7rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.list-background {
+    background-color: #ff7b00;
+    
+}
+
+.list-items-link {
+    padding:  .4rem;
+    text-decoration: none;
+}
+
+.get-started-header {
+    color: white;
+}
+
+.get-demo-header {
+    color: #ff7b00;
+    font-size: 19px;
+    font-weight: 600;
+}
