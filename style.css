@@ -9,7 +9,7 @@ body {
 }
 
 .container  {
-    max-width: 1150px;
+    max-width: 1200px;
     margin: auto;
     width: 90%;
 }
@@ -122,20 +122,21 @@ showcase
 */
 
 .showcase-container {
-    background-color: #ffe9d4;
+    background-color: #ffe4d4;
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .showcase-content-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 4rem;
     
 }
 
 .showcase-header {
-    font-size: 43px;
+    font-size: 48px;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
@@ -151,7 +152,7 @@ showcase
 }
 
 .image-itself {
-    width: 700px;
-    margin-top: 7rem;
-    m
+    width: 600px;
+    
+    
 }
