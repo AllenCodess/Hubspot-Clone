@@ -33,7 +33,7 @@ Header
     display: flex;
     justify-content: space-between;
     margin: 2rem auto;
-    width: 75%;
+    width: 100%;
 
 }
 
@@ -83,4 +83,31 @@ Header
     color: #ff5100;
     font-size: 17px;
     font-weight: 500;
+}
+
+
+/* 
+
+Header Media Queries
+
+
+*/
+@media screen and (max-width:700px) {
+
+    .hubspot-header {
+    flex-direction: column;
+
+}
+
+    .img-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+    .header-list {
+    margin: auto;
+    
+    
+}
 }
