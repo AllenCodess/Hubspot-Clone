@@ -152,7 +152,7 @@ showcase
     margin-top: 1rem;
 }
 
-.image-itself {
+.image-itself-header {
     width: 600px;
     
     
@@ -171,7 +171,7 @@ Media Queries Showcase
     height: 650px;
 
 }
-.image-itself {
+.image-itself-header {
     width: 400px;
 }
 
@@ -183,7 +183,7 @@ Media Queries Showcase
 @media screen and (max-width:883px){
 
 
-.image-itself {
+.image-itself-header {
    display: none;
 }
 
@@ -205,4 +205,35 @@ Media Queries Showcase
     height: 700px;
 }
     
+}
+
+
+/* 
+
+logo section
+
+*/
+
+.logo-section {
+    width: 100%;
+    margin: 6rem auto;
+}
+
+.logo-text {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-itself {
+    width: 200px;
+    padding-left: 4rem;
 }
