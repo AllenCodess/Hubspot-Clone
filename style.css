@@ -290,14 +290,15 @@ Media Queries desktop section
   margin-bottom: 3rem;
 }
 
+
 .text-feature-header {
   text-align: center;
 }
 
 .text-feature-description {
   text-align: center;
-  width: 50%;
-  margin: 0 auto;
+  width: 90%;
+
 }
 
 .features-link-text {
