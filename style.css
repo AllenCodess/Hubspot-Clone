@@ -216,7 +216,7 @@ logo section
 
 .logo-section {
     width: 100%;
-    margin: 6rem auto;
+    margin: 4rem auto;
 }
 
 .logo-text {
@@ -236,4 +236,18 @@ logo section
 .image-itself {
     width: 200px;
     padding-left: 4rem;
+}
+
+
+/* 
+
+Logo section Media Queries
+
+*/
+
+@media screen and (max-width: 743px) {
+    .img-container {
+    flex-direction: column;
+}
+    
 }
