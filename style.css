@@ -296,7 +296,7 @@ Media Queries desktop section
 }
 
 .desktop-features {
-  height: 2800px;
+  height: 2100px;
 }
 
 .img-container-features {
@@ -330,20 +330,15 @@ Media Queries desktop section
   align-items: center;
 }
 
+iframe {
+ width: 90%;
+ margin: auto;
+}
+
 
 
 
 }
-
-
-@media screen and (max-width:540px) {
-  .text-feature-description {
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-}
-}
-
 
 /* 
 
@@ -373,4 +368,29 @@ h2 {
    grid-template-columns: repeat(2,2fr);
    column-gap: 3rem;
 }
+
+
+@media screen and (max-width:726px) { 
+.desktop-features {
+  height: auto;
+}
+
+.yt-vid-container {
+  display: grid;
+   grid-template-columns: repeat(1,1fr);
+   column-gap: 3rem;
+}
+}
+
+@media screen and (max-width:540px) {
+  .text-feature-description {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+}
+
+
+
 
