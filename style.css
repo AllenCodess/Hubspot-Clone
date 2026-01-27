@@ -238,6 +238,9 @@ desktop features section
   height: 1400px;
 }
 
+
+
+
 .content-container {
   display: grid;
   grid-template-columns: repeat(2,3fr);
@@ -262,7 +265,18 @@ desktop features section
   margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: 600;
+  margin-bottom: 3rem;
 }
+
+
+
+.features-link {
+  color: blue;
+}
+
+
+
+
 
 /* 
 
@@ -271,6 +285,10 @@ Media Queries desktop section
 */
 
 @media screen and (max-width:1315px) {
+
+  .showcase-container{
+    width: 100%;
+  }
   .content-container {
   display: flex;
  flex-direction: column;
@@ -279,6 +297,10 @@ Media Queries desktop section
 
 .desktop-features {
   height: 2800px;
+}
+
+.img-container-features {
+  text-align: center;
 }
 
 .features-img {
@@ -300,4 +322,21 @@ Media Queries desktop section
   text-align: center;
 }
 
+
+.card-container-mid {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+
+}
+
+
+@media screen and (max-width:540px) {
+  .text-feature-description {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
 }
