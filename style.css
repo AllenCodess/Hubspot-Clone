@@ -330,6 +330,8 @@ Media Queries desktop section
 }
 
 
+
+
 }
 
 
@@ -340,3 +342,34 @@ Media Queries desktop section
   margin: 0 auto;
 }
 }
+
+
+/* 
+
+Youtube section
+
+*/
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+.yt-vids {
+  margin-top: 3rem;
+}
+
+.yt-video {
+  margin-bottom: 4rem;
+}
+
+.vid-caption {
+  margin-top: 2rem;
+}
+
+
+.yt-vid-container {
+  display: grid;
+   grid-template-columns: repeat(2,2fr);
+   column-gap: 3rem;
+}
+
