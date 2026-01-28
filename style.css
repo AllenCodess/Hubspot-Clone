@@ -489,6 +489,32 @@ footer {
    grid-template-columns: repeat(1,1fr);
    column-gap: 3rem;
 }
+
+.footer-content-container {
+  flex-direction: column;
+}
+
+.footer-text {
+  width: 90%;
+}
+
+.footer-img {
+  width: 250px;
+}
+
+footer {
+  height: auto;
+}
+
+.footer-white-links {
+  flex-direction: column;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 }
 
 @media screen and (max-width:540px) {
