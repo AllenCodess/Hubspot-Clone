@@ -1,6 +1,8 @@
+# Hubspot Clone
+
 This project is a clone of a the older hubspot website.
 
-Tech Stack
+## Tech Stack
 
 - HTML
 - CSS
